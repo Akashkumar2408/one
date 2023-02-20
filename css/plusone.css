@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+/* -----------------------------------part 1-------------------------------*/
+
+.plus{
+    background-color: rgba(44,47,54,255);
+    color: white;
+    padding-top: 2%;
+}
+.worldwide{
+    background-color: white;
+    color: rgba(188,188,188,255);
+    line-height: 132%;
+    padding: 1% 0% 2% 6%;   
+
+}
+.em{
+    background-color: rgba(248,248,248,255)
+}
+
+.plussize{
+    font-size: 100%;
+}
+.plusonefont{
+    font-size: 240%;
+}   
+.business
+{
+    font-size: 786%;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.37);
+    font-weight: 900;
+    padding: 12%;
+    
+}
+
+/*---------------------------------------part 2------------------------------------*/
+
+.img{
+    background-image: url(../img/bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+.bluecolor{
+    background-color:rgba(0, 140, 255, 0.461);
+    
+}
+.pinkcolor{
+    background-color:rgba(185, 47, 105, 0.461);
+    margin-bottom: 30%; 
+}
+.san{
+    font-size: 287%;
+    color: white;
+    top: 9%;
+    left: 9%;
+    position: absolute;
+    font-weight: 800;
+}
+.whiteline{
+    width: 16%;
+    top: 21%;
+    left: 9%;
+    position: absolute;
+    height: 2%;
+    background-color: white;
+}
+
+.fly{
+    color: rgb(255, 255, 255);
+    padding-left: 10%;
+    font-size: 300%;
+    position: absolute;
+    top: 35%;
+    font-weight: 800;
+}
+.dot
+ {
+    display: flex;
+   background-color:rgba(254, 2, 217, 0.897);
+   width: 12px;
+    height: 12px;
+    margin-inline: 8px;
+    
+ }
+ .dot_div{
+    margin-top: 10%;
+
+ }
+/*-------------------------------------- part 3------------------------------*/
+
+.bor{
+    border-left: 5px rgb(255, 0, 242) solid;
+    padding-inline: 15%;
+    font-size: 138%;
+}
+/*-------------------------------------part 4-----------------------------------*/
+.f1{  
+      font-size: 165%;
+    font-weight: 500;
+    padding-top: 2%;
+    margin-bottom: 0%;
+}
+
+.pin{
+    font-size: 190%;
+    color: rgba(241,70,131,255);
+    margin-bottom: 2%;
+}
+.pinkbox{
+   
+   background-color:rgba(254, 2, 217, 0.897);
+   width: 7%;
+    height: 3%;
+    
+}
+
+/*-------------------------------------------------part 5-------------------------------*/
+.part5{
+    background-color: rgba(44,47,54,255);
+    padding: 4% 20%;
+    color: white;
+    font-size: 130%;
+    font-weight: 600;
+}
+.whitbox{
+    height: 12%;
+    width: 17%;
+    background-color: white;
+}
+
+
+
+
+
+@media  screen and (max-width: 700px) {
+    
+    .img{
+        background-image: url(../img/bg.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .business
+{
+    font-size: 344%;
+    justify-content: center;
+    color: rgba(224, 207, 207, 0.473);
+    font-weight: 900;
+    padding: 113px;
+}
+.whiteline{
+    width: 38%;
+    margin-top: -14%;
+    margin-left: 5%;
+    height: 0.5%;
+    background-color: white;
+}
+
+.san{
+    font-size: 207%;
+    color: white;
+    padding-left: 6%;
+    padding-top: 0%;
+    position: absolute;
+}
+.fly{
+    color: rgb(255, 255, 255);
+    padding-left: 12%;
+    font-size: 300%;
+    position: absolute;
+    top: 19%;
+    font-weight: 800;
+}
+.dot_div {
+    margin-top: 32%;
+}
+
+.whitbox {
+    height: 12%;
+    width: 8%;
+    background-color: white;
+}
+.part5 {
+    background-color: rgba(44,47,54,255);
+    padding: 4% 7%;
+    color: white;
+    font-size: 130%;
+    font-weight: 600;
+}
+
+  }
